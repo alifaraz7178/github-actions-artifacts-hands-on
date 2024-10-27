@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Download code
+    - name: Download text file
       uses: actions/download-artifact@v4
       with:
         path: ./artifacts/hello.txt
